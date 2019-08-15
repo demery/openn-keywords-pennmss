@@ -1,7 +1,11 @@
 #!/usr/bin/env ruby
+
+###########
 #
-
-
+# For each row, create a directory ('folder' column) and keywords file from the
+# list in the 'Facets' column. The 'Facets' column is retained from the source
+# spreadsheet that listed the Penn in Hand facets for each manuscript.
+#
 #     BibID,Shelfmark,Title,Full Coverage?,Facets,,folder
 #     9968529323503681,CAJS Rar Ms 125,[al-Aḥādīth = Hadiths].,,"16th century, Paper, Fragment, Arabic, Islamic, Hadith",,cajs_rarms125
 #     9968529583503681,CAJS Rar Ms 126,Kitāb al-Shifā bi-taʻrīf ḥuqūq al-Muṣṭafá / ʻIyāḍ ibn Mūsa. Shifā bi-taʻrīf ḥuqūq al-Muṣṭafá,,"15th century, Arabic, Hadith, Islamic, Paper",,cajs_rarms126
